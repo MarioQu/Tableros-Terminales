@@ -1,0 +1,28 @@
+/* Colores */
+:root{
+    --white:    #ffffff;
+    --dark:     #2B2929;
+    --red:      #911931;
+    --red2:     #D20F00;
+    --orange:   #FF8A00;
+    --orange2:  #FCAF55;
+    --brown:    #8D581A;
+    --gray1:    #E8E8E8;
+    --gray2:    #DADADA;
+    --gray3:    #E4E4E4;
+    --gray4:    #ADADAD;  
+    --blue:     #2F92ED;
+    --blue2:    #29217C;
+    --green:    #119E57;
+}
+
+/* Tipografía */
+@font-face {
+    font-family: "GothamPro";
+    src: url("../fonts/gothampro.ttf");
+    font-style: normal;
+}
+
+.myborder{
+    border: 1px dashed #00ffff !important;
+}
