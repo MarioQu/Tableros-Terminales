@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tableros Terminales</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <style>
+            .tabla-salidas {
+                border-spacing: 0 50px !important;
+                border-collapse: separate !important;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header class="container-fluid">
+            <div class="row px-3">
+                <div class="col-lg-7 f50 text-uppercase">
+                    <strong>Salidas - </strong> Departures
+                </div>
+                <div class="col-lg-5 f50 text-uppercase text-right">
+                    00:00 h
+                </div>
+            </div>
+        </header>
+        
+        <div class="container-fluid px-0">
+            <div class="table-responsive">
+                <table class="table table-bordered tabla-salidas mt-n5">
+                    <thead>
+                        <tr class="text-center f-white f32">
+                            <th scope="col" class="col1">
+                                Marca
+                                <p class="f-light f22">Brand</p>
+                            </th>
+                            <th scope="col" class="col2">
+                                Corrida
+                                <p class="f-light f22">Trip</p>
+                            </th>
+                            <th scope="col" class="col3">
+                                Destino - Paradas
+                                <p class="f-light f22">Destination - Stops</p>
+                            </th>
+                            <th scope="col" class="col4">
+                                Hora de salida
+                                <p class="f-light f22">Estimated time</p>
+                            </th>
+                            <th scope="col" class="col5">
+                                Estatus
+                                <p class="f-light f22">Status</p>
+                            </th>
+                            <th scope="col" class="col6">
+                                Puerta
+                                <p class="f-light f22">Gate</p>
+                            </th>
+                            <th scope="col" class="col7">
+                                Andén
+                                <p class="f-light f22">Platform</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- .row .tr -->
+                        <tr>
+                            <th scope="row" class="text-center">
+                                <img src="assets/images/diamante.svg" class="img-fluid" alt="">
+                            </th>
+                            <td class="text-center f32 fw500">
+                                1234567
+                            </td>
+                            <td class="text-center">
+                                <p class="fw600 f36">Zihuatanejo</p>
+                                <p class="f-light f20">
+                                    Taxqueña / Chilpancingo / Acapulco
+                                </p>
+                            </td>
+                            <td class="text-center">
+                                <span class="f36 fw600">00:00</span>
+                            </td>
+                            <td class="text-center cell-delay-full f-brown f30 fw500">
+                                +15 min
+                            </td>
+                            <td class="text-center">
+                                <span class="f36 fw600">5</span>
+                            </td>
+                            <td class="text-center">
+                                <span class="f36 fw600">15</span>
+                            </td>
+                        </tr>
+                        <!-- ./row ./tr-->
+                        
+                        <!-- .row .tr -->
+                        <tr>
+                            <th scope="row" class="text-center">
+                                <img src="assets/images/estrella-oro.svg" class="img-fluid" alt="">
+                            </th>
+                            <td class="text-center f32 fw500">
+                                1234568
+                            </td>
+                            <td class="text-center">
+                                <p class="fw600 f36">Zihuatanejo</p>
+                            </td>
+                            <td class="text-center">
+                                <span class="f36 fw600">00:00</span>
+                            </td>
+                            <td class="text-center cell-board f-blue3 f30 fw500">
+                                Abordando
+                            </td>
+                            <td class="text-center">
+                                <span class="f36 fw600">3</span>
+                            </td>
+                            <td class="text-center">
+                                <span class="f36 fw600">10</span>
+                            </td>
+                        </tr>
+                        <!-- ./row ./tr-->
+                        
+                        <!-- .row .tr -->
+                        <tr>
+                            <th scope="row" class="text-center">
+                                <img src="assets/images/estrella-oro-pluss.svg" class="img-fluid" alt="">
+                            </th>
+                            <td class="text-center f32 fw500">
+                                1234569
+                            </td>
+                            <td class="text-center">
+                                <p class="fw600 f36">Zihuatanejo</p>
+                            </td>
+                            <td class="text-center">
+                                <span class="f36 fw600">00:00</span>
+                            </td>
+                            <td class="text-center cell-cancel f-red3 f30 fw500">
+                                Cancelado
+                            </td>
+                            <td class="text-center">
+                                <span class="f36 fw600 txt-cancel">1</span>
+                            </td>
+                            <td class="text-center">
+                                <span class="f36 fw600 txt-cancel">8</span>
+                            </td>
+                        </tr>
+                        <!-- ./row ./tr-->
+                        
+                        <!-- .row .tr -->
+                        <tr>
+                            <th scope="row" class="text-center">
+                                <img src="assets/images/ADO.png" class="img-fluid" alt="">
+                            </th>
+                            <td class="text-center f32 fw500">
+                                1234570
+                            </td>
+                            <td class="text-center">
+                                <p class="fw600 f36">Zihuatanejo</p>
+                                <p class="f-light f20">
+                                    Taxqueña / Chilpancingo / Acapulco
+                                </p>
+                            </td>
+                            <td class="text-center">
+                                <span class="f36 fw600">00:00</span>
+                            </td>
+                            <td class="text-center cell-ontime f-green2 f30 fw500">
+                                En tiempo
+                            </td>
+                            <td class="text-center">
+                                <span class="f36 fw600">4</span>
+                            </td>
+                            <td class="text-center">
+                                <span class="f36 fw600">6</span>
+                            </td>
+                        </tr>
+                        <!-- ./row ./tr-->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
